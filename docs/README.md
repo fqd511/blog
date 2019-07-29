@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /hero.png
-actionText: 进入主页 →
+actionText: 开始吧 →
 actionLink: /
 features:
 # - title: 简洁至上
