@@ -37,14 +37,16 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             // { text: 'Guide', link: '/guide/' },
-            { text: 'Github', link: 'https://github.com/fqd511' },
-            // {
-            //     text: 'Languages',
-            //     items: [
-            //         { text: 'Chinese', link: '/language/chinese' },
-            //         { text: 'Japanese', link: '/language/japanese' }
-            //     ]
-            // }
+            // { text: 'Github', link: 'https://github.com/fqd511' },
+            {
+                text: '目录',
+                items: [
+                    { text: 'JavaScript', link: '/JavaScript' },
+                    { text: 'CSS', link: '/CSS' },
+                    { text: 'Go', link: '/Go' },
+                    { text: 'Vue', link: '/Vue' }
+                ]
+            }
         ],
         sidebar: 'auto',
         sidebarDepth: 2,
