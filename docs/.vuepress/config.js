@@ -9,6 +9,9 @@ module.exports = {
             }
         }
     },
+    head: [
+        ['link', { rel: 'icon', href: '/511.png' }]
+    ],
     markdown: {
         // markdown-it-anchor 的选项
         anchor: { permalink: false },
@@ -29,13 +32,13 @@ module.exports = {
                 items: [
                     { text: 'JavaScript', link: '/JavaScript/' },
                     { text: 'CSS', link: '/CSS/' },
-                    { text: 'Go', link: '/Go/' },
+                    { text: 'Go', link: '/Golang/' },
                     { text: 'Vue', link: '/Vue/' }
                 ]
             }
         ],
         sidebar: 'auto',
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         displayAllHeaders: true, // 默认值：false
         lastUpdated: 'Last Updated', // string | boolean
         serviceWorker: {

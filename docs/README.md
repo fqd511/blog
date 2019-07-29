@@ -1,5 +1,5 @@
 ---
-home: true
+# home: true
 sidebar: auto
 # heroImage: /hero.png
 # actionText: 开始吧 →
