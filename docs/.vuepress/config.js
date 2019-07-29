@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Blog',
+    title: '511',
     description: 'personal blog recording technical or nontechnical articles write by 511',
     base: '/',
     configureWebpack: {
@@ -19,20 +19,6 @@ module.exports = {
             // md.use(require('markdown-it-xxx'))
         }
     },
-    locales: {
-        // 键名是该语言所属的子路径
-        // 作为特例，默认语言可以使用 '/' 作为其路径。
-        // '/': {
-        //     lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-        //     title: 'VuePress',
-        //     description: 'Vue-powered Static Site Generator'
-        // },
-        // '/zh/': {
-        //     lang: 'zh-CN',
-        //     title: 'VuePress',
-        //     description: 'Vue 驱动的静态网站生成器'
-        // }
-    },
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
@@ -41,10 +27,10 @@ module.exports = {
             {
                 text: '目录',
                 items: [
-                    { text: 'JavaScript', link: '/JavaScript' },
-                    { text: 'CSS', link: '/CSS' },
-                    { text: 'Go', link: '/Go' },
-                    { text: 'Vue', link: '/Vue' }
+                    { text: 'JavaScript', link: '/JavaScript/' },
+                    { text: 'CSS', link: '/CSS/' },
+                    { text: 'Go', link: '/Go/' },
+                    { text: 'Vue', link: '/Vue/' }
                 ]
             }
         ],
@@ -74,12 +60,26 @@ module.exports = {
         // 假如你的文档仓库和项目本身不在一个仓库：
         // docsRepo: 'vuejs/vuepress',
         // 假如文档不是放在仓库的根目录下：
-        // docsDir: 'docs',
+        docsDir: 'docs',
         // 假如文档放在一个特定的分支下：
         // docsBranch: 'master',
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
         // editLinkText: '帮助我们改善此页面！'
-    }
+    },
+    locales: {
+        // 键名是该语言所属的子路径
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+        // '/': {
+        //     lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+        //     title: 'VuePress',
+        //     description: 'Vue-powered Static Site Generator'
+        // },
+        // '/zh/': {
+        //     lang: 'zh-CN',
+        //     title: 'VuePress',
+        //     description: 'Vue 驱动的静态网站生成器'
+        // }
+    },
 }
