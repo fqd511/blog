@@ -1,6 +1,5 @@
 ---
-# home: true
-sidebar: auto
+home: true
 # heroImage: /hero.png
 # actionText: 开始吧 →
 # actionLink: /
@@ -13,7 +12,9 @@ sidebar: auto
 #   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 footer: Apache License | Copyright © 2019 Dig Van
 ---
-# Personal records for tech/nontech writings of Dig Van
+# Van's blog
+
+> Personal records for tech/nontech writings of Dig Van
 
 ## contents index for now
 

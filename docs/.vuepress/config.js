@@ -38,10 +38,10 @@ module.exports = {
             }
         ],
         sidebar: {
-            '/JavaScript/': 'auto',
-            '/CSS/': 'auto',
-            '/Go/': 'auto',
-            '/Vue/': 'auto',
+            '/JavaScript/': [''],
+            '/CSS/': [''],
+            '/Go/': [''],
+            '/Vue/': [''],
             '/': [
                 ['/', '首页'],
                 {
