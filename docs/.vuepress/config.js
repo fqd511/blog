@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Blog',
     description: 'personal blog recording technical or nontechnical articles write by 511',
-    base: '/blog/',
+    base: '/',
     configureWebpack: {
         resolve: {
             alias: {
@@ -22,29 +22,29 @@ module.exports = {
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
-        '/': {
-            lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: 'VuePress',
-            description: 'Vue-powered Static Site Generator'
-        },
-        '/zh/': {
-            lang: 'zh-CN',
-            title: 'VuePress',
-            description: 'Vue 驱动的静态网站生成器'
-        }
+        // '/': {
+        //     lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+        //     title: 'VuePress',
+        //     description: 'Vue-powered Static Site Generator'
+        // },
+        // '/zh/': {
+        //     lang: 'zh-CN',
+        //     title: 'VuePress',
+        //     description: 'Vue 驱动的静态网站生成器'
+        // }
     },
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
-            {
-                text: 'Languages',
-                items: [
-                    { text: 'Chinese', link: '/language/chinese' },
-                    { text: 'Japanese', link: '/language/japanese' }
-                ]
-            }
+            // { text: 'Guide', link: '/guide/' },
+            { text: 'Github', link: 'https://github.com/fqd511' },
+            // {
+            //     text: 'Languages',
+            //     items: [
+            //         { text: 'Chinese', link: '/language/chinese' },
+            //         { text: 'Japanese', link: '/language/japanese' }
+            //     ]
+            // }
         ],
         sidebar: 'auto',
         sidebarDepth: 2,
