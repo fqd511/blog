@@ -1,6 +1,6 @@
 module.exports = {
-    title: '511',
-    description: 'personal blog recording technical or nontechnical articles write by 511',
+    title: '511blog',
+    description: '大愚乌托邦',
     base: '/',
     configureWebpack: {
         resolve: {
@@ -37,8 +37,35 @@ module.exports = {
                 ]
             }
         ],
-        sidebar: 'auto',
-        sidebarDepth: 1,
+        sidebar: {
+            '/JavaScript/': auto,
+            '/CSS/': auto,
+            '/Go/': auto,
+            '/Vue/': auto,
+            '/': [
+                ['/', '首页'],
+                {
+                    title: 'JavaScript',
+                    children: [
+                        '/JavaScript/'
+                    ]
+                },
+                {
+                    title: 'CSS',
+                    children: [
+                        '/CSS/'
+                    ]
+                },
+                {
+                    title: 'Vue',
+                    children: [
+                        '/Vue/'
+                    ]
+                }
+            ],
+
+        },
+        sidebarDepth: 2,
         displayAllHeaders: true, // 默认值：false
         lastUpdated: 'Last Updated', // string | boolean
         serviceWorker: {
