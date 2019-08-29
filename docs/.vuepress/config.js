@@ -84,7 +84,7 @@ module.exports = {
         // repo: 'https://github.com/fqd511/blog',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
-        // repoLabel: 'GitHub',
+        repoLabel: '粤ICP备17031034号',
 
         // 以下为可选的编辑链接选项
 
