@@ -36,4 +36,4 @@ footer: Apache License | Copyright © 2019 Dig Van
 
 ---
 
-[粤ICP备17031034号](https://www.beian.miit.gov.cn)
+[粤ICP备17031034号](http://www.beian.miit.gov.cn)
